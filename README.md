@@ -1,52 +1,38 @@
-# Project Name
-> Outline a brief description of your project.
-
+# Bike Sharing
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* [Contact](#contact)
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- This project aims to analyze and predict bike-sharing demand using linear regression techniques.
+- **Background**: Bike-sharing systems have become popular in urban areas as an eco-friendly mode of transportation. Understanding and predicting demand can help in optimizing bike distribution and availability.
+- **Business Problem**: The main problem addressed by this project is predicting the number of bikes rented at a given time, which helps in operational decisions such as rebalancing the bike stations.
+- **Dataset**: The dataset used is from the UCI Machine Learning Repository, specifically the "Bike Sharing Dataset". It includes information on hourly bike rental counts in the Capital Bikeshare system with corresponding weather and seasonal information.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- **Python** - version 3.10
+- **Pandas** - version 2.2.1
+- **NumPy** - version 1.26.4
+- **Matplotlib** - version 3.8.4
+- **Seaborn** - version 0.13.2
+- **Statmodels** - version 0.14.2
+- **Scikit-learn** - version 1.4.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Conclusions
+- **Conclusion 1**: Temperature has a significant positive correlation with the number of bike rentals. As the temperature increases, the number of rentals tends to increase.
+- **Conclusion 2**: Weather conditions play a crucial role in bike sharing demand. Clearer weather leads to higher bike usage compared to rainy or snowy conditions.
+- **Conclusion 3**: The linear regression model developed provides a reasonably good prediction of bike sharing demand with an R2 score of 0.82, though it could be further improved with additional features or more sophisticated modelling techniques.
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- This project was inspired by the growing need to understand urban transportation patterns and improve bike-sharing systems.
+- Data source: [UCI Machine Learning Repository - Bike Sharing Dataset](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset).
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@Malviya-Rajesh](https://github.com/Malviya-Rajesh) - feel free to contact me!
 
-
-<!-- Optional -->
 <!-- ## License -->
 <!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
